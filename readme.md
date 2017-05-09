@@ -53,3 +53,10 @@ you. for running this :D
 Licensing: This project released under MIT Licensing.
 
 Property of Hurricane Labs
+
+
+
+Instalation
+
+Step 1
+curl -Ls https://rawgit.com/macalinaomark/AutoMisp/master/auto-MISP-ubuntu.sh | sudo bash -
