@@ -56,7 +56,7 @@ Property of Hurricane Labs
 
 
 
-Instalation
+Installation
 
 Step 1
 curl -Ls https://rawgit.com/macalinaomark/AutoMisp/master/auto-MISP-ubuntu.sh | sudo bash -
