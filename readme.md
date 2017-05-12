@@ -34,7 +34,7 @@ Please be aware that this script does NOT set the baseurl variable in MISP's con
 Installation
 
 Step 1
-curl -Ls https://rawgit.com/macalinaomark/AutoMisp/master/auto-MISP-ubuntu.sh | sudo bash -
+"curl -Ls https://rawgit.com/macalinaomark/AutoMisp/master/auto-MISP-ubuntu.sh | sudo bash -"
 
 Marks Notes
 to access the Web UI
