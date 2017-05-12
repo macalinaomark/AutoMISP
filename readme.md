@@ -1,7 +1,5 @@
 AutoMISP
 
-a da_667 endeavor
-
 This shell script is designed to automatically install MISP (https://github.com/MISP/MISP) on Ubuntu 16.04. 
 
 What this script does:
@@ -33,30 +31,17 @@ To do so, open up the script, and put in your password for the root user on line
 
 Please be aware that this script does NOT set the baseurl variable in MISP's config.php. Per documentation this doesn't really affect MISP functionality all that much. This script also sets the apache2 ServerName to [your server's hostname].local -- you'll need to modify /etc/apache2/sites-available/misp.conf and misp-ssl.conf
 
-Questions? Thanks? Issues?
-
-twitter: da_667
-
-email: deusexmachina667 at gmail dot com
-
-With thanks to:
-cipherli.st for stronger SSL configuration
-
-the MISP project maintainers for making such a great platform
-
-infde6 for the documentation on how to install MISP on ubuntu 16.04 (https://github.com/MISP/MISP/issues/1195)
-
-Hurricane Labs - for giving me the time to work on this.
-
-you. for running this :D
-
-Licensing: This project released under MIT Licensing.
-
-Property of Hurricane Labs
-
-
-
 Installation
 
 Step 1
 curl -Ls https://rawgit.com/macalinaomark/AutoMisp/master/auto-MISP-ubuntu.sh | sudo bash -
+
+Marks Notes
+to access the Web UI
+https://[your server's hostname].local
+
+login details
+username: admin@admin.test
+password: admin
+
+first time login will require to change password of admin@admin.test
