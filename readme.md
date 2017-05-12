@@ -40,6 +40,8 @@ Marks Notes
 to access the Web UI
 https://[your server's hostname].local
 
+Will include baseurl code to during installation manual but doesnt matter right now
+
 login details
 username: admin@admin.test
 password: admin
