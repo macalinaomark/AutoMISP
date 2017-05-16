@@ -139,7 +139,7 @@ dir_check /etc/apache2/ssl
 chmod 700 /etc/apache2/ssl
 cd /etc/apache2/ssl
 	
-openssl req -new -newkey rsa:4096 -days 365 -nodes -x509 -subj "/C=AU/ST=Queensland/L=Brisbane/O=Security/CN=`hostname`" -keyout misp.key  -out misp.crt &>> $logfile
+openssl req -new -newkey rsa:4096 -days 365 -nodes -x509 -subj "/C=AU/ST=Queensland/L=Brisbane/O=Project/OU=Security/CN=`hostname`/emailAddress=admin@admin.test" -keyout misp.key  -out misp.crt &>> $logfile
 error_check 'SSL certificate and key generation'
 print_good "SSL private key location: /etc/apache2/ssl/misp.key"
 print_good "SSL certificate location: /etc/apache2/ssl/misp.crt"
