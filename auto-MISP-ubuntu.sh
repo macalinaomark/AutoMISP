@@ -346,9 +346,9 @@ print_good "MISP php config files modified"
 #This is gnupg stuff and actually requires user intervention. I'm opting not to do anything e-mail related -- the users will have to set up postfix on their own.
 #I've left the commands that the MISP install docs say to use for GPG key generation, etc.
 
-mkdir /var/www/MISP/.gnupg
-sudo -u www-data gpg --homedir /var/www/MISP/.gnupg --gen-key
-sudo -u www-data gpg --homedir /var/www/MISP/.gnupg --export --armor test@admin.test > /var/www/MISP/app/webroot/gpg.asc
+#mkdir /var/www/MISP/.gnupg
+#sudo -u www-data gpg --homedir /var/www/MISP/.gnupg --gen-key
+#sudo -u www-data gpg --homedir /var/www/MISP/.gnupg --export --armor test@admin.test > /var/www/MISP/app/webroot/gpg.asc
 
 ########################################
 #Resetting the file permissions for the MISP webapp - to ensure www-data has proper access.
