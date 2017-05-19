@@ -167,7 +167,6 @@ else
 	echo "<VirtualHost ubuntu.projectmisp.com:80>" >> /etc/apache2/sites-available/misp.conf
 	echo "	ServerAdmin macalinaomark@gmail.com" >> /etc/apache2/sites-available/misp.conf
 	echo "	ServerName ubuntu.projectmisp.com" >> /etc/apache2/sites-available/misp.conf
-	echo "	Redirect permanent / https://ubuntu.projectmisp.com" >> /etc/apache2/sites-available/misp.conf
 	echo "	DocumentRoot /var/www/MISP/app/webroot" >> /etc/apache2/sites-available/misp.conf
 	echo "	<Directory /var/www/MISP/app/webroot>" >> /etc/apache2/sites-available/misp.conf
 	echo "		Options -Indexes" >> /etc/apache2/sites-available/misp.conf
