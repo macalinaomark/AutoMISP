@@ -356,7 +356,7 @@ sudo -u www-data gpg --homedir /var/www/MISP/.gnupg --export --armor test@admin.
 print_status "Resetting file permissions to /var/www/MISP* for www-data to be able to access properly.."
 
 chown -R www-data:www-data /var/www/MISP
-chmod -R 750 /var/www/MISP
+chmod -R 777 /var/www/MISP
 chmod -R g+ws /var/www/MISP/app/tmp
 chmod -R g+ws /var/www/MISP/app/files
 chmod -R g+ws /var/www/MISP/app/files/scripts/tmp
