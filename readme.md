@@ -31,6 +31,11 @@ To do so, open up the script, and put in your password for the root user on line
 
 Please be aware that this script does NOT set the baseurl variable in MISP's config.php. Per documentation this doesn't really affect MISP functionality all that much. This script also sets the apache2 ServerName to [your server's hostname].local -- you'll need to modify /etc/apache2/sites-available/misp.conf and misp-ssl.conf
 
+****NOTE****
+Please Fork
+and change the CN of the SSL as i have changed it
+
+
 Installation
 
 Step 1
