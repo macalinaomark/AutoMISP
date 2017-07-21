@@ -251,7 +251,7 @@ fi
 print_status "Downloading MISP to /var/www.."
 
 cd /var/www/
-git clone https://github.com/macalinaomark/MISP.git &>> $logfile
+git clone https://github.com/MISP/MISP.git &>> $logfile
 error_check 'Download of MISP'
 
 #git configuration changes recommend by the MISP project document
